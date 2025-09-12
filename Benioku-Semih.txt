@@ -1,0 +1,34 @@
+Chatbot Projesi
+
+Bu proje iki kısımdan oluşur:
+
+Backend: Yapay zekayı çalıştıran Python tabanlı servis
+
+Frontend: Kullanıcı arayüzü (React)
+
+Proje Yapısı:
+backend/App.py → Chatbot backend dosyası
+deneme-ui/src/components/Chatbot.css → Chatbot tasarım stilleri
+deneme-ui/src/components/Chatbot.jsx → Chatbot bileşeni
+
+------Çalıştırma:------
+
+Backend’i Başlat
+Komut isteminden backend klasörüne gir:
+cd backend
+python App.py
+Bu işlem yapay zekayı çalıştırır ve server'ı başlatır.
+
+Frontend’i Başlat
+Başka bir komut isteminde deneme-ui klasörüne gir:
+cd deneme-ui
+npm start
+Bu işlem yerel olarak localhost üzerinden bir web sitesi açar.
+
+Kullanım:
+Tarayıcıda verilen localhost adresine giderek Chatbot arayüzünü test edebilirsiniz.
+
+Not:
+1)Daha önce kullanıdığım kodlar ve promptlar ayrı bir dosyada yedekledim.
+2)yeni bir sorun keşfettim, chatbot'un verdiği cevaplar bazen çok olabiliyor. Tasarladığım alan
+yüzünden nadiren uzun verdiği mesaajlarda syntax hatası olabiliyor. verdiği cevap düzensiz ve kötü gözükebiliyor.
