@@ -14,7 +14,7 @@ const Chatbot = () => {
   // 'messages' state'i artık LLM'e göndereceğimiz format
   const [messages, setMessages] = useState([
     
-    { role: 'assistant', content: 'Merhaba, ben KolayOptik Asistanı. Size nasıl yardımcı olabilirim? 😊' }
+    { role: 'assistant', content: 'Merhaba, beni size yardımcı olmam için Semih Murat tasarladı. Size nasıl yardımcı olabilirim? 😊 (Şu anda herhangi bir server bağlantısı bulunamadığı için cevap veremem!.)' }
   ]);
   const [inputValue, setInputValue] = useState('');
   const messagesEndRef = useRef(null);
@@ -71,7 +71,7 @@ const Chatbot = () => {
     <div className="chatbot-container">
       <div className={`chat-window ${isOpen ? 'open' : ''}`}>
         <div className="chat-header">
-          <h3>Yardımcı Asistan</h3>
+          <h3>J.A.R.V.I.S.</h3>
           <button onClick={toggleChat} className="close-btn"><CloseIcon /></button>
         </div>
         <div className="chat-messages">

@@ -35,7 +35,7 @@
   right: 25px;
   width: 350px;
   height: 500px;
-  background-color: #000000; /* Beyaz Arkaplan */
+  background-color: #7c8bce; /* Beyaz Arkaplan */
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.25);
   display: flex;
@@ -69,7 +69,7 @@
 .chat-header h3 {
   margin: 0;
   font-size: 1.1em;
-  color: #333;
+  color: #000000;
 }
 
 .close-btn {
@@ -81,7 +81,7 @@
 }
 
 .close-btn:hover {
-    color: #000;
+    color: #d44949;
 }
 
 
@@ -106,7 +106,7 @@
 /* Bot Mesajları (Solda) */
 .message.bot {
   background-color: #e9e9eb;
-  color: #000;
+  color: #000000;
   align-self: flex-start;
   border-bottom-left-radius: 5px;
 }
@@ -138,12 +138,12 @@
 
 .chat-input-area input:focus {
   outline: none;
-  border-color: #a82b0c;
+  border-color: #2a44b9;
 }
 
 /* Gönder Butonu */
 .send-btn {
-  background-color: #353936; /* Yeşil Tema */
+  background-color: #bb4545; /* Yeşil Tema */
   color: white;
   border: none;
   border-radius: 20px;
@@ -154,6 +154,6 @@
 }
 
 .send-btn:hover {
-  background-color: #4c564e;
+  background-color: #7457a8;
 }
 

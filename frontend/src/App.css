@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Sayfa arkaplanı */
+body {
+  margin: 0;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white; /* tüm yazıları beyaz yaptık */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* --- Hakkımda sayfası için eklemeler --- */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px; /* foto ile yazı arasına boşluk */
+  text-align: left;
+}
+
+/* Sol taraf (fotoğraf kutusu) */
+.home-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  background: rgba(0,0,0,0.3); /* hafif koyu arkaplan */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Fotoğraf */
+.profile-pic {
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slide-in 1.5s ease-out forwards;
+}
+
+@keyframes slide-in {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Sağ taraf (özgeçmiş kutusu) */
+.home-right {
+  flex: 2;
+  padding: 20px;
+  background: rgba(0,0,0,0.4); /* yarı transparan koyu arkaplan */
+  border-radius: 12px;
+}
+
+/* Başlıklar ve yazılar */
+.home-right h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.home-right h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 4px;
+}
+
+.home-right p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: white;
+}
+
+.home-right ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  list-style-type: disc;
+  color: white;
+}
