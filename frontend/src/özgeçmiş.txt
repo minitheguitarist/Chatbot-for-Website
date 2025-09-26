@@ -1,0 +1,8 @@
+2020 yılında başlayan teknoloji serüvenim, T3 Vakfı'nın Deneyap atölyelerinde aldığım kapsamlı eğitimlerle şekillendi. Dört yıl süren bu programda; Arduino ve Deneyap Kart gibi mikrodenetleyicilerle gömülü sistemlerin temellerini atarken, Linux işletim sistemi üzerinde yetkinlik kazandım. Aynı zamanda, AutoCAD Fusion 360 programını kullanarak üç boyutlu tasarım ve modelleme becerilerimi geliştirdim.
+
+2024 yılında Yozgat Bozok Üniversitesi Bilgisayar Mühendisliği bölümüne başlayarak bu alandaki tutkumu akademik bir kariyere taşıdım.
+
+Teorik bilgilerimi pratiğe dökmek amacıyla 2025 yılında ilk gönüllü stajımı, KolaySoft bünyesindeki CFN Teknoloji'de gerçekleştirdim. Bu staj sürecinde, günümüzün en kritik alanlarından biri olan Prompt Engineering üzerine yoğunlaştım. Bu kapsamda, bir web portalı için geliştirilen yapay zeka asistanının kullanıcı deneyimi tasarımını ve davranışlarını şekillendiren "system prompt"unu hazırlama sorumluluğunu üstlendim. Ayrıca, KOSGEB ve Avrupa Birliği tarafından desteklenen projelerin toplantılarına aktif katılım sağlayarak proje yönetimi ve iş geliştirme süreçlerini yakından tanıma fırsatı buldum.
+
+Şu anda, 2025-2026 dönemini kapsayan ve Yapay Zeka ile İşletim Sistemleri arasındaki ilişkiyi inceleyen yenilikçi bir proje üzerine araştırmalarımı sürdürmekteyim.
+
